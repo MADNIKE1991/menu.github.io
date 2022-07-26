@@ -1,0 +1,104 @@
+a {
+    list-style: none;
+}
+.container{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+/*header*/
+.header {
+    max-width: 1920px;
+    background-color: skyblue;
+}
+.header-info-list{
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 20%;
+    align-items: center;
+    height: 40px;
+}
+.header-info-nav {
+    display: flex;
+}
+.header-info-link,.magazine-link {
+    text-decoration: none;
+    color: white;
+    transition: color 2s ease;
+    margin-right: 10px;
+}
+.header-info-link:hover {
+    color: pink;
+}
+.header-info-item {
+    list-style: none;
+}
+.header-info-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/*main*/
+.main-nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 16,7%;
+    margin-right: 10px;
+}
+.main-nav-list-logo {
+    display: flex;
+    flex-direction: column;
+}
+.main-nav-img-logo {
+    max-width: 200px;
+    }
+.main-nav-item {
+    list-style: none;
+    
+}
+.main-nav-item-logo-description{
+    color: #b6b6b6;
+}
+.main-nav-link{
+    text-decoration: none;
+    color: #b6b6b6;
+    margin-right: 10px;
+}
+/*строка поиска*/
+.main-nav-item-seach {background: white;}
+.main-nav-item-seach:after display:table}
+.main-nav-item-seach form {
+  width: auto;
+  float: right;
+  margin-right: 30px;
+}
+.main-nav-item-seach input {
+  max-width: 100%;
+  height: 42px;
+    max-height: 100%;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #b6b6b6;
+  background: white;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+.main-nav-item-seach input:focus {
+  width: 300px;
+}
+.main-nav-item-seach button {
+  width: 42px;
+  height: 42px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: -2px;
+  right: 0;
+}
+.main-nav-item-seach button:before{
+  content: attr();
+  font-family: FontAwesome;
+  color: #324b4e;
+}
